@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5200E4629D50BB9001FB7EF /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5200E4529D50BB9001FB7EF /* SignUpController.swift */; };
+		D5200E4829D51088001FB7EF /* MySongFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5200E4729D51088001FB7EF /* MySongFrame.swift */; };
+		D5200E4C29D51BDE001FB7EF /* FeedPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5200E4B29D51BDE001FB7EF /* FeedPageController.swift */; };
+		D5200E5129D6024A001FB7EF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D5200E5029D6024A001FB7EF /* FirebaseAuth */; };
+		D5200E5329D6024A001FB7EF /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D5200E5229D6024A001FB7EF /* FirebaseDatabase */; };
+		D5200E5529D6024A001FB7EF /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5200E5429D6024A001FB7EF /* FirebaseDatabaseSwift */; };
+		D5200E5A29D6075E001FB7EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5200E5929D6075E001FB7EF /* User.swift */; };
+		D5200E5C29D6104A001FB7EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5200E5B29D6104A001FB7EF /* GoogleService-Info.plist */; };
+		D5200E5F29D62193001FB7EF /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5200E5E29D62193001FB7EF /* Song.swift */; };
+		D5229B5029DDEDE6003B7B93 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D5229B4F29DDEDE6003B7B93 /* SDWebImage */; };
+		D5229B5329DDF0AA003B7B93 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5229B5229DDF0AA003B7B93 /* Helper.swift */; };
 		D565FB8129D4A41A0041B1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB8029D4A41A0041B1C7 /* AppDelegate.swift */; };
 		D565FB8329D4A41A0041B1C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB8229D4A41A0041B1C7 /* SceneDelegate.swift */; };
 		D565FB8529D4A41A0041B1C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB8429D4A41A0041B1C7 /* ViewController.swift */; };
 		D565FB8829D4A41A0041B1C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D565FB8629D4A41A0041B1C7 /* Main.storyboard */; };
 		D565FB8A29D4A41B0041B1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D565FB8929D4A41B0041B1C7 /* Assets.xcassets */; };
 		D565FB8D29D4A41B0041B1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D565FB8B29D4A41B0041B1C7 /* LaunchScreen.storyboard */; };
+		D565FB9729D4A5430041B1C7 /* MySignUpFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB9629D4A5430041B1C7 /* MySignUpFrame.swift */; };
+		D565FB9929D4A9FC0041B1C7 /* MySignInFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB9829D4A9FC0041B1C7 /* MySignInFrame.swift */; };
+		D565FB9C29D4B1D30041B1C7 /* UIView_addSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB9A29D4B1D30041B1C7 /* UIView_addSubViews.swift */; };
+		D565FB9D29D4B1D30041B1C7 /* UIView_enableTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565FB9B29D4B1D30041B1C7 /* UIView_enableTapGestureRecognizer.swift */; };
+		D565FB9F29D4CAF00041B1C7 /* signIn.png in Resources */ = {isa = PBXBuildFile; fileRef = D565FB9E29D4CAF00041B1C7 /* signIn.png */; };
+		D565FBA129D4D1A20041B1C7 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = D565FBA029D4D1A20041B1C7 /* flower.png */; };
+		D565FBA529D4D2B00041B1C7 /* flowerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D565FBA429D4D2B00041B1C7 /* flowerLogo.png */; };
+		D5B2330329D75048002BA4A5 /* MySongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2330229D75048002BA4A5 /* MySongTableViewCell.swift */; };
+		D5B2330529D76783002BA4A5 /* UIImageView_fetchImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2330429D76783002BA4A5 /* UIImageView_fetchImageFromURL.swift */; };
+		D5B2330729D76D04002BA4A5 /* SongPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B2330629D76D04002BA4A5 /* SongPageController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D583227029DC86BA00B07B72 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D5200E4529D50BB9001FB7EF /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		D5200E4729D51088001FB7EF /* MySongFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySongFrame.swift; sourceTree = "<group>"; };
+		D5200E4B29D51BDE001FB7EF /* FeedPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPageController.swift; sourceTree = "<group>"; };
+		D5200E5929D6075E001FB7EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D5200E5B29D6104A001FB7EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5200E5E29D62193001FB7EF /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D5229B5229DDF0AA003B7B93 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		D565FB7D29D4A41A0041B1C7 /* Masterpeace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masterpeace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D565FB8029D4A41A0041B1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D565FB8229D4A41A0041B1C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,16 @@
 		D565FB8929D4A41B0041B1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D565FB8C29D4A41B0041B1C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D565FB8E29D4A41B0041B1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D565FB9629D4A5430041B1C7 /* MySignUpFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySignUpFrame.swift; sourceTree = "<group>"; };
+		D565FB9829D4A9FC0041B1C7 /* MySignInFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySignInFrame.swift; sourceTree = "<group>"; };
+		D565FB9A29D4B1D30041B1C7 /* UIView_addSubViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_addSubViews.swift; sourceTree = "<group>"; };
+		D565FB9B29D4B1D30041B1C7 /* UIView_enableTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_enableTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		D565FB9E29D4CAF00041B1C7 /* signIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signIn.png; sourceTree = "<group>"; };
+		D565FBA029D4D1A20041B1C7 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		D565FBA429D4D2B00041B1C7 /* flowerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowerLogo.png; sourceTree = "<group>"; };
+		D5B2330229D75048002BA4A5 /* MySongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySongTableViewCell.swift; sourceTree = "<group>"; };
+		D5B2330429D76783002BA4A5 /* UIImageView_fetchImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView_fetchImageFromURL.swift; sourceTree = "<group>"; };
+		D5B2330629D76D04002BA4A5 /* SongPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +82,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5200E5529D6024A001FB7EF /* FirebaseDatabaseSwift in Frameworks */,
+				D5200E5329D6024A001FB7EF /* FirebaseDatabase in Frameworks */,
+				D5229B5029DDEDE6003B7B93 /* SDWebImage in Frameworks */,
+				D5200E5129D6024A001FB7EF /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5200E4429D50A10001FB7EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D565FB8429D4A41A0041B1C7 /* ViewController.swift */,
+				D5200E4529D50BB9001FB7EF /* SignUpController.swift */,
+				D5200E4B29D51BDE001FB7EF /* FeedPageController.swift */,
+				D5B2330629D76D04002BA4A5 /* SongPageController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5200E5829D60732001FB7EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5200E5929D6075E001FB7EF /* User.swift */,
+				D5200E5E29D62193001FB7EF /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5229B5129DDF08D003B7B93 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D5229B5229DDF0AA003B7B93 /* Helper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		D565FB7429D4A41A0041B1C7 = {
 			isa = PBXGroup;
 			children = (
 				D565FB7F29D4A41A0041B1C7 /* Masterpeace */,
 				D565FB7E29D4A41A0041B1C7 /* Products */,
+				D583226D29DC86BA00B07B72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +140,59 @@
 		D565FB7F29D4A41A0041B1C7 /* Masterpeace */ = {
 			isa = PBXGroup;
 			children = (
+				D5229B5129DDF08D003B7B93 /* Util */,
+				D5200E5829D60732001FB7EF /* Models */,
+				D5200E4429D50A10001FB7EF /* Controllers */,
+				D565FB9529D4A51F0041B1C7 /* CustomizedUI */,
+				D565FB9429D4A4A90041B1C7 /* Extensions */,
 				D565FB8029D4A41A0041B1C7 /* AppDelegate.swift */,
 				D565FB8229D4A41A0041B1C7 /* SceneDelegate.swift */,
-				D565FB8429D4A41A0041B1C7 /* ViewController.swift */,
 				D565FB8629D4A41A0041B1C7 /* Main.storyboard */,
 				D565FB8929D4A41B0041B1C7 /* Assets.xcassets */,
+				D565FBA329D4D2960041B1C7 /* pictures */,
 				D565FB8B29D4A41B0041B1C7 /* LaunchScreen.storyboard */,
+				D5200E5B29D6104A001FB7EF /* GoogleService-Info.plist */,
 				D565FB8E29D4A41B0041B1C7 /* Info.plist */,
 			);
 			path = Masterpeace;
+			sourceTree = "<group>";
+		};
+		D565FB9429D4A4A90041B1C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5B2330429D76783002BA4A5 /* UIImageView_fetchImageFromURL.swift */,
+				D565FB9A29D4B1D30041B1C7 /* UIView_addSubViews.swift */,
+				D565FB9B29D4B1D30041B1C7 /* UIView_enableTapGestureRecognizer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D565FB9529D4A51F0041B1C7 /* CustomizedUI */ = {
+			isa = PBXGroup;
+			children = (
+				D565FB9629D4A5430041B1C7 /* MySignUpFrame.swift */,
+				D565FB9829D4A9FC0041B1C7 /* MySignInFrame.swift */,
+				D5200E4729D51088001FB7EF /* MySongFrame.swift */,
+				D5B2330229D75048002BA4A5 /* MySongTableViewCell.swift */,
+			);
+			path = CustomizedUI;
+			sourceTree = "<group>";
+		};
+		D565FBA329D4D2960041B1C7 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				D565FBA429D4D2B00041B1C7 /* flowerLogo.png */,
+				D565FB9E29D4CAF00041B1C7 /* signIn.png */,
+				D565FBA029D4D1A20041B1C7 /* flower.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		D583226D29DC86BA00B07B72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +205,19 @@
 				D565FB7929D4A41A0041B1C7 /* Sources */,
 				D565FB7A29D4A41A0041B1C7 /* Frameworks */,
 				D565FB7B29D4A41A0041B1C7 /* Resources */,
+				D583227029DC86BA00B07B72 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Masterpeace;
+			packageProductDependencies = (
+				D5200E5029D6024A001FB7EF /* FirebaseAuth */,
+				D5200E5229D6024A001FB7EF /* FirebaseDatabase */,
+				D5200E5429D6024A001FB7EF /* FirebaseDatabaseSwift */,
+				D5229B4F29DDEDE6003B7B93 /* SDWebImage */,
+			);
 			productName = Masterpeace;
 			productReference = D565FB7D29D4A41A0041B1C7 /* Masterpeace.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +246,10 @@
 				Base,
 			);
 			mainGroup = D565FB7429D4A41A0041B1C7;
+			packageReferences = (
+				D5200E4F29D6024A001FB7EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D5229B4E29DDEDE5003B7B93 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = D565FB7E29D4A41A0041B1C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D565FB8D29D4A41B0041B1C7 /* LaunchScreen.storyboard in Resources */,
+				D565FB9F29D4CAF00041B1C7 /* signIn.png in Resources */,
 				D565FB8A29D4A41B0041B1C7 /* Assets.xcassets in Resources */,
+				D565FBA529D4D2B00041B1C7 /* flowerLogo.png in Resources */,
+				D565FBA129D4D1A20041B1C7 /* flower.png in Resources */,
 				D565FB8829D4A41A0041B1C7 /* Main.storyboard in Resources */,
+				D5200E5C29D6104A001FB7EF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +281,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5200E5F29D62193001FB7EF /* Song.swift in Sources */,
+				D565FB9C29D4B1D30041B1C7 /* UIView_addSubViews.swift in Sources */,
 				D565FB8529D4A41A0041B1C7 /* ViewController.swift in Sources */,
+				D5B2330729D76D04002BA4A5 /* SongPageController.swift in Sources */,
+				D5200E4829D51088001FB7EF /* MySongFrame.swift in Sources */,
 				D565FB8129D4A41A0041B1C7 /* AppDelegate.swift in Sources */,
+				D5200E4629D50BB9001FB7EF /* SignUpController.swift in Sources */,
+				D5229B5329DDF0AA003B7B93 /* Helper.swift in Sources */,
+				D565FB9D29D4B1D30041B1C7 /* UIView_enableTapGestureRecognizer.swift in Sources */,
 				D565FB8329D4A41A0041B1C7 /* SceneDelegate.swift in Sources */,
+				D565FB9729D4A5430041B1C7 /* MySignUpFrame.swift in Sources */,
+				D5B2330329D75048002BA4A5 /* MySongTableViewCell.swift in Sources */,
+				D5200E4C29D51BDE001FB7EF /* FeedPageController.swift in Sources */,
+				D5B2330529D76783002BA4A5 /* UIImageView_fetchImageFromURL.swift in Sources */,
+				D565FB9929D4A9FC0041B1C7 /* MySignInFrame.swift in Sources */,
+				D5200E5A29D6075E001FB7EF /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +516,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5200E4F29D6024A001FB7EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D5229B4E29DDEDE5003B7B93 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5200E5029D6024A001FB7EF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5200E4F29D6024A001FB7EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D5200E5229D6024A001FB7EF /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5200E4F29D6024A001FB7EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D5200E5429D6024A001FB7EF /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5200E4F29D6024A001FB7EF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		D5229B4F29DDEDE6003B7B93 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5229B4E29DDEDE5003B7B93 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D565FB7529D4A41A0041B1C7 /* Project object */;
 }
